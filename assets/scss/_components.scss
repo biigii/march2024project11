@@ -31,22 +31,10 @@ header {
     }
 }
 
-.background {
-    width: 500px;
-    height: 500px;
-    // background-color: var.$primary-color;
-    // border: 10px solid var.$primary-color;
-    background-image: url("https://picsum.photos/id/1061/500");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.photo {
-    // border: 10px solid var.$primary-color;
-}
-
-.album {
-    border: 3px solid;
-    background-color: #677;
+img {
+    // border: 2px solid;
+    // width: 600px;
+    // aspect-ratio: 4/3;
+    // object-fit: cover;
+    // object-position: center;
 }
