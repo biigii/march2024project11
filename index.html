@@ -22,18 +22,74 @@
   <body>
     <header>
       <nav>
-        <a href="./index.html">home</a>
-        <a href="./about.html">about</a>
-        <a href="./contact.html">contact</a>
+        <a href="./index.html"><i class="fa-solid fa-home"></i> home</a>
+        <a href="./about.html"><i class="fa-solid fa-user"></i> about</a>
+        <a href="./contact.html"><i class="fa-solid fa-envelope"></i> contact</a>
       </nav>
     </header>
     <h1>homepage</h1>
     <main class="container">
-      <span class="material-symbols-outlined"> settings </span>
-      <i class="my-icon bi bi-globe"></i>
-      <!-- <i class="fa-brands fa-html5 fa-10x fa-rotate-90"></i>
-        <i class="fa-brands fa-css3-alt fa-5x fa-fade"></i>
-        <i class="fa-solid fa-coffee fa-5x fa-beat"></i> -->
+        <form>
+
+            <fieldset>  
+                <legend>login form</legend>
+                <label for="username">username</label>
+                <input disabled type="text" id="username">
+    
+                <label required for="pass">password</label>
+                <input type="password" id="pass">
+    
+                <label> email
+                    <input type="email">
+                </label>
+
+                <input type="submit">
+    
+            </fieldset>
+
+        </form>
+
+
+        <form>
+
+    
+            <hr>
+            <input type="file">
+            <hr>
+            <select name="fruit">
+                <option value="apple">apple</option>
+                <option value="orange" selected>orange</option>
+                <option value="kiwifruit">kiwifruit</option>
+            </select>
+
+            <hr>
+            <input required name="username" type="text" value="">
+            <input type="password" placeholder="Enter Password Here">
+            <input type="color" value="#00ff00">
+            <input type="email">
+            <input type="range" min="0" max="67">
+            <input type="time">
+            <input type="date">
+            <input type="month">
+            <input type="search">
+            <input type="url">
+            <input type="datetime-local">
+            <input type="number">
+            <input type="week">
+            <hr>
+            <textarea placeholder="Please send us your comments" name="comments" cols="50" rows="10"></textarea>
+            <hr>
+            <input type="radio" name="weekend">friday
+            <input checked type="radio" name="weekend">saturday
+            <input type="radio" name="weekend">sunday
+            <hr>
+            <input type="checkbox" name="weekend">friday
+            <input type="checkbox" name="weekend">saturday
+            <input type="checkbox" name="weekend" checked>sunday
+
+
+            <input type="submit" value="Send">
+        </form>
     </main>
   </body>
 </html>
