@@ -1,0 +1,52 @@
+@use "./variables" as var;
+
+header {
+    height: 150px;
+    margin-bottom: 50px;
+    background-color: var.$primary-color;
+    nav {
+        height: 100%;
+        text-align: center;
+        line-height: 150px;
+        a {
+            color: var.$tertiary-color;
+            font-family: var.$font-family;
+            font-size: 1.5em;
+            // text-decoration: ;
+            // text-transform: ;
+            text : {
+                transform: uppercase;
+                decoration: none
+            }
+            margin: {
+                left: 10px;
+                right: 10px
+            }
+            transition-property: color;
+            transition-duration: 0.4s;
+            &:hover {
+                color: var.$secondary-color
+            }
+        }
+    }
+}
+
+.background {
+    width: 500px;
+    height: 500px;
+    // background-color: var.$primary-color;
+    // border: 10px solid var.$primary-color;
+    background-image: url("https://picsum.photos/id/1061/500");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo {
+    // border: 10px solid var.$primary-color;
+}
+
+.album {
+    border: 3px solid;
+    background-color: #677;
+}

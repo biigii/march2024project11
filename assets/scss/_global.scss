@@ -1,0 +1,19 @@
+// my own reset
+// @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+// * is global selector which includes all
+// html elements, but it does not include ::after and ::before
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// so our body has a height
+html, 
+body {
+    height: 100%;
+    // font-family: something.$font-family;
+}

@@ -1,0 +1,8 @@
+@use "./variables" as something;
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    text-transform: capitalize;
+    font-family: something.$font-family;
+}
